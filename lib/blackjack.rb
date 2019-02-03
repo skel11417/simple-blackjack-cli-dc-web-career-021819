@@ -35,7 +35,6 @@ def initial_round
 end
 
 def hit?(card_total)
-
   while card_total < 21 do
     prompt_user
     user_input = get_user_input
