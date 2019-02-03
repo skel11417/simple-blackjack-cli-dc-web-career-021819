@@ -46,7 +46,7 @@ end
 def invalid_command(command)
   # code invalid_command here
   if command == 's' || command == 'h' || command == 'exit'
-    true
+    false
   else
     false
   end
