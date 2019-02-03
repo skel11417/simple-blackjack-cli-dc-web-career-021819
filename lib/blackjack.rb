@@ -31,6 +31,7 @@ def initial_round
   # code #initial_round here
   sum = deal_card + deal_card
   puts "Your cards add up to #{sum}"
+  sum
 end
 
 def hit?
