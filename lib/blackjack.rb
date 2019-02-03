@@ -43,7 +43,7 @@ end
 
 def invalid_command(command)
   # code invalid_command here
-  command != 's' || command != 'h'
+  command != 's' || command != 'h' || exit
 end
 
 #####################################################
