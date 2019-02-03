@@ -35,7 +35,6 @@ def initial_round
 end
 
 def hit?(card_total)
-  # code hit? here
   prompt_user
   
   while card_total < 21 do
