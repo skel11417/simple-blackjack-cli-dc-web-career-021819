@@ -50,7 +50,7 @@ def invalid_command(command)
     false
   end
 end
-binding.pry
+# binding.pry
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
