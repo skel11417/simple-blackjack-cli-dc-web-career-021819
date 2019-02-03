@@ -41,8 +41,9 @@ def hit?(card_total)
   
 end
 
-def invalid_command
+def invalid_command(command)
   # code invalid_command here
+  command != 's' || command != 'h'
 end
 
 #####################################################
