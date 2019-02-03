@@ -35,7 +35,6 @@ def initial_round
 end
 
 def hit?(card_total)
-  while card_total < 21 do
     prompt_user
     user_input = get_user_input
     if user_input == 'h'
@@ -46,7 +45,6 @@ def hit?(card_total)
     else
       invalid_command
     end
-  end
   card_total
 end
 
@@ -63,8 +61,9 @@ def runner
   # code runner here
   welcome
   card_total = initial_round
-  final = hit?(card_total)
-  end_game(final)
+  while card_total < 21 do
+    
+  end_game(card_total)
   
 end
     
