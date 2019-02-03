@@ -46,11 +46,7 @@ end
 
 def invalid_command(command)
   # code invalid_command here
-  if command == 's' || command == 'h' || command == 'exit'
-    false
-  else
-    false
-  end
+  puts "Please enter a valid command"
 end
 # binding.pry
 #####################################################
