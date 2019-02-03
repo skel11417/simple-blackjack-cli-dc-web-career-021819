@@ -40,7 +40,7 @@ def hit?(card_total)
   user_input = get_user_input
   # unless invalid_command(user_input)
   
-  
+  card_total += deal_card
 end
 
 def invalid_command(command)
