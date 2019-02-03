@@ -48,7 +48,7 @@ def invalid_command(command)
   if command != 's' || command != 'h' || command != 'exit'
     true
   else
-    FALSE
+    false
   end
 end
 binding.pry
