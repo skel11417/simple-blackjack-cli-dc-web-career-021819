@@ -36,7 +36,6 @@ end
 
 def hit?(card_total)
   prompt_user
-  
   while card_total < 21 do
     user_input = get_user_input
     if user_input == 'h'
