@@ -37,7 +37,7 @@ end
 def hit?(card_total)
   # code hit? here
   prompt_user
-  input = get_user_input
+  user_input = get_user_input
   unless invalid_command(user_input)
   
 end
