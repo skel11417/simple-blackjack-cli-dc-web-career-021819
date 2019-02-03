@@ -1,3 +1,4 @@
+require 'pry'
 def welcome
   # code #welcome here
   puts "Welcome to the Blackjack Table"
@@ -46,7 +47,7 @@ def invalid_command(command)
   # code invalid_command here
   command != 's' || command != 'h' || command != 'exit'
 end
-bindy.pry
+binding.pry
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
