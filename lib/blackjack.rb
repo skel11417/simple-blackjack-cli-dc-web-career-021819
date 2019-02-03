@@ -59,7 +59,7 @@ end
 def runner
   # code runner here
   welcome
-  display_card_total(initial_round)
+  total = display_card_total(initial_round)
   hit?
   end_game
   
