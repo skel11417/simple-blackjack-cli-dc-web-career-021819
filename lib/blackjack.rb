@@ -41,7 +41,6 @@ def hit?(card_total)
       card_total += deal_card
       display_card_total(card_total)
     elsif user_input == 's'
-      break
     else
       invalid_command
     end
