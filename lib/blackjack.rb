@@ -46,7 +46,7 @@ def invalid_command(command)
   # code invalid_command here
   command != 's' || command != 'h' || command != 'exit'
 end
-
+bindy.pry
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
